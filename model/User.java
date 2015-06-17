@@ -15,9 +15,10 @@ public class User {
 		setEmail(Generator.getRandomEmailAddress(getName()));
 	}
 
-	public User(String name, String password) {
+	public User(String name, String password, String email) {
 		setName(name);
 		setPassword(password);
+		setEmail(email);
 	}
 
 	public String getName() {
