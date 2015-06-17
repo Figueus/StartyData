@@ -57,10 +57,10 @@ public class Generator {
 	public static String getRandomName() {
 		String[] firstNames = { "Jan", "Piet", "Klaas", "Bart", "Henderikus",
 				"Jerke", "Karel", "Anne", "Mirjam", "Jo", "Peter", "Inge",
-				"Rolf", "Gert", "Greet" };
+				"Rolf", "Gert", "Greet", "Pieter" };
 		String[] lastNames = { "Sloot", "de Vries", "van der Berg", "de Wit",
 				"Klaassen", "Cohen", "Ulfson", "de Lange", "Berghuis", "Waard",
-				"de Jonge", "Prins", "Vrede", "Lager", "van Rotterdam" };
+				"de Jonge", "Prins", "Vrede", "Lager", "van Rotterdam", "Post" };
 		StringBuilder str = new StringBuilder();
 
 		str.append(firstNames[RANDOM.nextInt(firstNames.length)]);
